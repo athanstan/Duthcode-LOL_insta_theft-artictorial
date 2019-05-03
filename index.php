@@ -41,7 +41,10 @@
 @import url("https://eune.leagueoflegends.com/modules/system/system.messages.css?pq4s2l");
 @import url("https://eune.leagueoflegends.com/modules/system/system.theme.css?pq4s2l");
 </style>
+
+<!-- BOOTSTRAP CDN -->
 <link type="text/css" rel="stylesheet" href="https://lolstatic-a.akamaihd.net/lolkit/1.1.9/lol-kit.css" media="all" />
+<link type="text/css" rel="stylesheet" href="main.css"/>
 
 <!--[if lt IE 8]>
 <link type="text/css" rel="stylesheet" href="https://lolstatic-a.akamaihd.net/lolkit/1.1.9/lol-kit-ie7.css" media="all" />
@@ -99,24 +102,7 @@
   
   
       
-<div class="panelizer-view-mode node node-teaser node-article node-124500">
-        <div class="white-stone"><div class="white-stone-content"><div class="gs-container" >
-  <div class="default-1-3"><div class="simple-border"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="news/game-updates/special-event/learn-more-trials-event.html" title="Learn More: Trials Pass" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-53298" class="file file-image file-image-jpeg">
-  <img typeof="foaf:Image" src="https://eune.leagueoflegends.com/sites/default/files/styles/wide_small/public/upload/trials_thumbnail_eventpass.jpg?itok=wo0tQ877" width="320" height="180" alt="" title="" />
-</div>
-</div></a></div></div><div class="panel-pane pane-entity-field pane-node-field-custom-thumbnail"  >
-  
-      
-  
-  <div class="pane-content">
-    <div class="field field-name-field-custom-thumbnail field-type-image field-label-hidden"></div>  </div>
-
-  
-  </div>
-</div>
-  <div class="default-2-3"><h4><a href="news/game-updates/special-event/learn-more-trials-event.html">Learn More: Trials Pass</a></h4><div class="teaser-content"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">Study up on the Trials Pass, MSI shop, and loot. </div></div><div class="horizontal-group"><div class="horizontal-group-item"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-124500">19 hours ago</span></div></div><div class="clearfix"></div></div></div>
-</div>
-</div></div></div>
+<?php include_once "custom-includes/cusNewsPost.php"; ?>
 
 <div class="panelizer-view-mode node node-teaser node-article node-124500">
         <div class="white-stone"><div class="white-stone-content"><div class="gs-container" >
@@ -371,7 +357,14 @@ RiotBar.show({mobileResponsive: true, touchpoints: {activeTouchpoint: 'news'}});
 jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"lolt","theme_token":"Z8RvCc7B0WGJNyqV-KmyDi6TxLzugesIzwoBWChZIvI","js":{"profiles\/lol2_profile\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/lolstatic-a.akamaihd.net\/riotbar\/prod\/latest\/en_PL.js":1,"0":1,"profiles\/lol2_profile\/modules\/custom\/lol_custom\/js\/ga_tracker.js":1,"https:\/\/lolstatic-a.akamaihd.net\/lolkit\/1.1.9\/riot-all.js":1,"https:\/\/lolstatic-a.akamaihd.net\/lolkit\/1.1.9\/riot-kit-all.js":1,"profiles\/lol2_profile\/modules\/contrib\/dynamic_autocomplete_path\/dynamic_autocomplete_path.js":1,"profiles\/lol2_profile\/modules\/custom\/lol_custom\/js\/main_menu_analitycs.js":1,"profiles\/lol2_profile\/modules\/contrib\/hap\/js\/timeago.js":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/js\/responsive-helpers.js":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/js\/colorbox.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"https:\/\/lolstatic-a.akamaihd.net\/lolkit\/1.1.9\/lol-kit.css":1,"https:\/\/lolstatic-a.akamaihd.net\/lolkit\/1.1.9\/lol-kit-ie7.css":1,"profiles\/lol2_profile\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"profiles\/lol2_profile\/modules\/contrib\/views\/css\/views.css":1,"profiles\/lol2_profile\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/lol2_profile\/modules\/riot\/lol_content_log\/lol_content_log.css":1,"profiles\/lol2_profile\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/lol2_profile\/themes\/contrib\/bthap\/stylesheets\/h5bp.css":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/css\/lolt.styles.css":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/css\/h5bp.css":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/css\/colorbox.css":1}},"lol_custom":{"ga_event_tracker_category":"WPP","ga_event_tracker_account":"UA-5859958-1","ga_event_tracker_host":"leagueoflegends.com"},"hap_timeago":{"node-124500":"1556828236","node-124514":"1556827201","node-124526":"1556827201","node-124489":"1556823601","node-124474":"1556795519","node-124431":"1556766001","node-124409":"1556726401","node-124397":"1556722801"}});
 //--><!]]>
 </script>
-  </body>
+
+
+<script>
+    // For Custom Scripts
+
+</script>
+
+</body>
 
 <!-- Mirrored from eune.leagueoflegends.com/en/news by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 May 2019 15:50:42 GMT -->
 </html>
