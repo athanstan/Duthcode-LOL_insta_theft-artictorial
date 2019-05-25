@@ -16,3 +16,39 @@ vertical-align: middle;
 color: #c9aa71;
 font-weight: 600;
 }
+
+.popup{
+    width: 50%;
+    position: relative;
+    display: none;
+}
+
+.popup p{
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: #6e6969;
+    font-family: Tahoma;
+}
+
+.popup input {
+    border-radius: 4px;
+    width: 250px;
+    height: 35px;     
+    border: none;
+    margin-bottom: 7px;
+    padding-left: 10px;
+}
+.popup input::placeholder {
+  font-size: 12px;
+}
+.button {
+    height: 25px !important;
+    background: #3897f0;
+    /* border: 1px solid #3897f0; */
+    background: linear-gradient(7deg, #ffd521, #f50000 40%, #b900b4);
+    margin-top: 7px;
+    color: #fefefe;
+    font-weight: 600; 
+}
